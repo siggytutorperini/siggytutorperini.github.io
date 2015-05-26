@@ -1,0 +1,70 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #000000;
+	font-family: 'Verdana', sans-serif
+}
+
+/* Carousel base class */
+.carousel {
+  height: 100%;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 100%;
+  background-color: #000000;
+}
+.carousel-inner {
+	height: 100%;
+}
+.carousel-inner > .item > img {
+ 	margin: 0 auto 0 auto;
+	min-height: 100%;
+	padding-top: 90px;
+}
+
+.carousel-indicators {
+	top: 20px;
+}
+
+.carousel-indicators li {
+  font-size: 26px;
+  display: inline;
+  width: auto;
+  height: auto;
+  margin: 0 30px 0 0;
+  text-indent: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  color: rgba(255,255,255, .25);
+}
+
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0 30px 0 0;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.carousel-control {
+	display: none;
+}
+
+.logo {
+	position: absolute;
+	top: 0;
+	margin-top: 20px;
+	left: 25px;
+	z-index: 100;
+}
